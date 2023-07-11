@@ -1,0 +1,43 @@
+/* common shaed styles*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-title{
+    padding-top: 100px;
+    padding-left: 240px;
+    
+}
+.banner .btn-primary{
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+}
+.banner-details{
+    display: flex;
+}
+.banner-title h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner-img img{
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-bottom: 0px;
+    width: 635px;
+height: 800px;
+
+}
+.banner-title p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}

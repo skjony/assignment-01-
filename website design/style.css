@@ -3,41 +3,52 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-.banner{
+
+/* header related styles*/
+header{
     background: rgba(229, 84, 115, 0.10);
 }
-.banner-title{
-    padding-top: 100px;
-    padding-left: 240px;
-    
-}
-.banner .btn-primary{
-    border-radius: 5px;
-    background: #E55473;
+.btn-primary{
+    border-radius: 8px;
+    background:#E55473;
     border: 0;
-    color: white;
+    color: #fff;
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 40px;
+    padding: 20px 45px;
 }
-.banner-details{
+.banner{
     display: flex;
+    align-items: center;
 }
-.banner-title h1{
-    color: #272727;
-    font-size: 80px;
+.banner .bn-pic{
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 500px;
+    height: 600px;
+   
+}
+.banner-title{
+    font-size: 60px;
     font-weight: 800;
+    color: #272727;
+    margin-bottom: 0px;
+    margin-right: 0px;
 }
-.banner-img img{
-    padding-top: 50px;
-    padding-right: 200px;
-    padding-bottom: 0px;
-    width: 635px;
-height: 800px;
-
+.banner-content{
+    padding-left: 150px;
 }
-.banner-title p{
+.banner-content p{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 400; 
+}
+.featured{
+    padding-top: 130px;
+}
+.featured-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
 }
